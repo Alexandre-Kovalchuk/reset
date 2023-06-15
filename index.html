@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://unpkg.com/img-comparison-slider@7/dist/styles.css" />
+	<link rel="stylesheet" href="css/style.min.css">
+	<title>Гловна</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+   <div class="header__container">
+      <div class="header__content">
+         <div class="header__content-logo">
+            <a href="index.html"><img src="img/logo.svg" alt="logo"></a>
+         </div>
+         <h1 class="header__content-info">Restart — Ваша зона автокомфорту</h1>
+         <button class="header__content-burger-btn burger-btn"></button>
+      </div>
+      <div class="header__menu">
+         <div class="header__menu-icon menu-icon">
+            <img src="img/close-btn.svg" alt="close-btn">
+         </div>
+         <nav class="header__menu-body menu-body ">
+            <ul class="header__menu-list">
+               <li class="header__menu-item"><a href="about.html" class="header__menu-link">Про компанію</a></li>
+               <li class="header__menu-item"><a href="chain.html" class="header__menu-link">Мережа СТЦ</a></li>
+               <li class="header__menu-item"><a target="_blank" href="https://restart.ua/sto" class="header__menu-link">Інтернет-магазин</a></li>
+               <li class="header__menu-item"><a href="decision.html" class="header__menu-link">Готові рішення для СТО</a></li>
+               <li class="header__menu-item"><a href="contact.html" class="header__menu-link">Контакти</a></li>
+            </ul>
+         </nav>  
+      </div>
+   </div>
+</header>
+		<main class="main">
+			<section class="banner">
+				<div class="banner__item">
+					<img-comparison-slider handle="true" class="rendered">
+						<figure slot="first" class="before">
+							<img  class="banner__rightimg" width="100%" src="img/banner-left.jpg">
+							<figcaption>
+								<div class="banner__left">
+									<div class="banner__infoleft">
+										<img src="img/setting.svg" alt="setting">
+										<h4>Діагностика та ремонт стартерів, генераторів, кондиціонерів</h4>
+									</div>
+									<a href="#" class="banner__leftlink banner__link">Мережа сервісів</a>
+								</div>
+							</figcaption>
+						</figure>
+						<div class="banner__circle" slot="handle">
+							<svg class="banner__arrow-left" slot="handle" width="15" height="15" viewBox="0 0 15 15"
+								fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path
+									d="M3.9668 7.36719L8.50195 14.3457H6.02344L0.837891 7.52539V7.19141L6.02344 0.353516H8.50195L3.9668 7.36719ZM9.76758 7.36719L14.3027 14.3457H11.8242L6.63867 7.52539V7.19141L11.8242 0.353516H14.3027L9.76758 7.36719Z"
+									fill="white" />
+							</svg>
+							<hr class="banner__line">
+
+							<svg class="banner__arrow-right" slot="handle" width="15" height="15" viewBox="0 0 15 15"
+								fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path
+									d="M3.35156 0.318359L8.53711 7.15625V7.49023L3.35156 14.3281H0.855469L5.39062 7.33203L0.855469 0.318359H3.35156ZM9.48633 0.318359L14.6719 7.15625V7.49023L9.48633 14.3281H6.99023L11.5254 7.33203L6.99023 0.318359H9.48633Z"
+									fill="white" />
+							</svg>
+						</div>
+						<figure slot="second" class="after">
+							<img class="banner__leftimg" width="100%" src="img/banner-rigth.jpg">
+							<figcaption>
+								<div class="banner__right">
+									<div class="banner__inforight">
+										<img src="img/generator.svg" alt="setting">
+										<h4>Продаж стартерів, генераторів <br> та компонентів</h4>
+									</div>
+									<a href="#" class="banner__rightlink banner__link">Перейти в магазин</a>
+								</div>
+							</figcaption>
+						</figure>
+					</img-comparison-slider>
+				</div>
+			<div class="banner__content">
+					<div class="banner__container">
+						<div class="banner__content-left">
+							<div class="banner__content-infoleft">
+								<img src="img/setting.svg" alt="setting">
+								<h4>Діагностика та ремонт стартерів, генераторів, кондиціонерів</h4>
+							</div>
+							<a href="#" class="banner__content-leftlink banner__link">Мережа сервісів</a>
+						</div>
+						<div class="banner__content-right">
+							<div class="banner__content-inforight">
+								<img src="img/generator.svg" alt="setting">
+								<h4>Продаж стартерів, генераторів <br> та компонентів</h4>
+							</div>
+							<a href="#" class="banner__content-rightlink banner__link">Перейти в магазин</a>
+						</div>
+					</div>
+				</div> 
+			</section>
+			<section class="offer">
+				<div class="offer__container">
+					<div class="offer__logo">
+						<a href="index.html"><img src="img/logo.svg" alt="logo"></a>
+					</div>
+					<h2 class="offer__title">Справжні професіонали <br> на ринку стартерів та генераторів</h2>
+					<div class="offer__content">
+						<div class="offer__content-stcnetwork">
+							<img src="img/offer/STC-network.png" alt="STC-network">
+							<h3 class="offer__content-title">Мережа СТЦ</h3>
+							<hr class="offer__content-line">
+							<p class="offer__content-txt">
+								Ремонт стартерів,
+								генераторів, кондиціонерів
+							</p>
+						</div>
+						<div class="offer__content-internetshop">
+							<img src="img/offer/internetShop.png" alt="Internet Shop">
+							<h3 class="offer__content-title">Інтернет-магазин</h3>
+							<hr class="offer__content-line">
+							<p class="offer__content-txt">Понад 15 000 позицій
+								агрегатів та компонентів</p>
+						</div>
+						<div class="offer__content-readymadesolutions">
+							<img src="img/offer/ready-madeSolutions.png" alt="Ready-made Solutions">
+							<h3 class="offer__content-title">Готові рішення</h3>
+							<hr class="offer__content-line">
+							<p class="offer__content-txt">
+								Готові рішення <br>
+								в стар-ген сегменті для СТО
+							</p>
+						</div>
+
+
+					</div>
+					<p class="offer__text">
+						У нас представлений широкий асортимент запчастин та комплектуючих для вантажних та легкових авто,
+						сільськогосподарських
+						машин, водомоторної техніки, а також мотоциклів та промислового сектору ринку.
+					</p>
+				</div>
+
+			</section>
+		</main>
+		<footer class="footer">
+   <div class="footer__item">
+      <div class="footer__container">
+         <div class="footer__menu">
+            <nav class="footer__menu-body">
+               <ul class="footer__menu-list">
+                  <li class="footer__menu-item"><a href="about.html" class="header__menu-link">Про компанію</a></li>
+                  <li class="footer__menu-item"><a href="" class="footer__menu-link">Мережа СТЦ</a></li>
+                  <li class="footer__menu-item"><a href="" class="footer__menu-link">Інтернет-магазин</a></li>
+                  <li class="footer__menu-item"><a href="" class="footer__menu-link">Готові рішення для СТО</a></li>
+                  <li class="footer__menu-item"><a href="" class="footer__menu-link">Контакти</a></li>
+               </ul>
+            </nav>
+         </div>
+         <p class="footer__info">
+            Мережа СТЦ Restart надає послуги діагностики, професійного ремонту стартера, генератора у Рівном, Луцьку.
+            Заміна бендиксів, втягуючих реле, статорів, роторів, втулок, щіток, підшипників, регуляторів, діодних
+            мостів.
+            Ремонт, заправка кондиціонерів. Продаж стартерів, генераторів. Великий вибір компонентів: бендикс стартера,
+            підшипники до стартерів, підшипники до генераторів, соленоїди, щітки стартера, якір стартера, регулятор
+            генератора, шків генератора, діодний міст генератора, щітки генератора. У нашому асортименті стартера,
+            генератори, компоненти брендів AS, Cargo, Koyo, ZM, ZEN, IKA, Mobiletron, оригінальні бренди BOSCH, DELCO,
+            DENSO.
+         </p>
+         <p class="footer__name">© Restart 2019</p>
+      </div>
+   </div>
+</footer>
+	</div>
+	<script defer src="https://unpkg.com/img-comparison-slider@7/dist/index.js"></script>
+	<script src="js/app.min.js"></script>
+</body>
+
+</html>
